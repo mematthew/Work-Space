@@ -33,7 +33,7 @@ authsvc:
   internalAudience: api.internal.haud
   openid:
     wellKnownConfig:
-      url: http://localhost:7000/.well-known/openid-configuration
+      url: localhost:7000/.well-known/openid-configuration
 
            
 protserv:
