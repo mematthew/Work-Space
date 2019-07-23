@@ -23,9 +23,8 @@ haud:
     # ===============================
 # = audit service configurations
 # ===============================
-     audit:
-           service:
-                   url: http://Pune-Laptop43:10000
+    security.audit.enabled=true
+    security.audit.service.url=localhost:8082/audit
            
 protserv:
   pagable:    
