@@ -19,6 +19,13 @@ server:
 haud:  
   app: 
     uuid: X-HAUD-INTERNAL-UUID
+    
+    # ===============================
+# = audit service configurations
+# ===============================
+     audit:
+           service:
+                   url: http://Pune-Laptop43:10000
            
 protserv:
   pagable:    
