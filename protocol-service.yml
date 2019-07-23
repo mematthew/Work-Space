@@ -28,6 +28,13 @@ audit:
   enabled: true
   service:
     url: localhost:8082/audit
+    
+authsvc:
+  internalAudience: api.internal.haud
+  openid:
+    wellKnownConfig:
+      url: http://localhost:7000/.well-known/openid-configuration
+
            
 protserv:
   pagable:    
