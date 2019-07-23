@@ -23,11 +23,10 @@ haud:
     # ===============================
 # = audit service configurations
 # ===============================
-    security:
+    
     audit:
     enabled: true
     
-    security:
     audit:
     service:
     url: localhost:8082/audit
