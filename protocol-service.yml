@@ -24,11 +24,9 @@ haud:
 # = audit service configurations
 # ===============================
     
-    audit:
-    enabled: true
-    
-    audit:
-    service:
+audit:
+  enabled: true
+  service:
     url: localhost:8082/audit
            
 protserv:
